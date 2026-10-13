@@ -1,7 +1,7 @@
 package com.example.weatherapp.models
 
 import androidx.annotation.DrawableRes
-import androidx.ui.graphics.Color
+import androidx.compose.ui.graphics.Color
 import com.example.weatherapp.R
 import com.example.weatherapp.ui.theme.RainyGradient
 import com.example.weatherapp.ui.theme.SnowyGradient
