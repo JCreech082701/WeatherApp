@@ -59,7 +59,7 @@ fun DayCard(day: DailyForecast) {
             Column {
                 Text(day.date, style = MaterialTheme.typography.titleLarge)
                 Text(
-                    "${day.high}°C High\${day.low}°C Low\"",
+                    "${day.high}°C High   ${day.low}°C Low",
                     style = MaterialTheme.typography.bodyLarge,
                     fontWeight = FontWeight.SemiBold
                 )
